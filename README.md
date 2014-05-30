@@ -3,6 +3,10 @@
 Handle NSErrors in easy way.
 This class defines rules of handling and presenting NSErrors.
 
+To handle error, just use:
+
+    [[ErrorHandler sharedHandler] handleError:error];
+
 # Examples
 
 Set defult title and button title:
